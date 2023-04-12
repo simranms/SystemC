@@ -1,5 +1,5 @@
 #include <systemc.h>
-
+#include <multi_add.cpp>
 SC_MODULE(top) {
     sc_clock clock;
     sc_signal<bool> reset;
